@@ -1,8 +1,4 @@
 
-# Socket.IO Chat
-
-A simple chat demo for socket.io
-
 ## How to use
 
 ```
@@ -10,7 +6,7 @@ $ cd socket.io
 $ npm install
 $ cd examples/chat
 $ npm install
-$ node .
+$ node index.js
 ```
 
 And point your browser to `http://localhost:3000`. Optionally, specify
