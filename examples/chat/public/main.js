@@ -87,7 +87,7 @@ $(function() {
     var $usernameDiv = $('<span class="username"/>')
       .text(data.username)
       .css('color', getUsernameColor(data.username));
-    var $messageBodyDiv = $('<span class="messageBody">')
+    var $messageBodyDiv = $('<span class="messageBody"/>')
       .text(data.message);
 
     var typingClass = data.typing ? 'typing' : '';
@@ -142,6 +142,9 @@ $(function() {
       $messages.append($el);
     }
     $messages[0].scrollTop = $messages[0].scrollHeight;
+    
+    //console.log($messages[0].scrollTop);
+     //console.log($messages[0].scrollHeight); 
   }
 
   // Prevents input from having injected markup

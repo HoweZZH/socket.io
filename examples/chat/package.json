@@ -1,13 +1,16 @@
 {
   "name": "chat",
   "version": "0.0.0",
-  "description": "A simple chat client,
+  "description": "A simple chat client",
   "main": "index.js",
   "author": "",
   "private": true,
   "license": "MIT",
   "dependencies": {
     "express": "4.13.4",
-    "socket.io": "^1.4.8"
+    "socket.io": "^1.4.8",
+    "body-parser": "^1.12.2",
+    "method-override": "^2.3.2",
+    "mongoose": "^3.8.25"
   }
 }
